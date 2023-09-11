@@ -19,7 +19,7 @@ const AdviceCard = () => {
   return (
     <div className="card">
       <p>ADVICE #!{advice.id}</p>
-      <h2>{advice.advice}</h2>
+      <h2>"{advice.advice}"</h2>
       <img src={dividerDesktop} className="divider-desktop" alt="divider" />
       <img src={dividerMobile} className="divider-mobile" alt="divider" />
       <div className="quotes" onClick={getAdvice}>
